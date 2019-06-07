@@ -123,10 +123,8 @@ public class Calculation {
         System.out.println("Все четные числа в промежутке между " + firstNumber2+ " и "+lastNumber2);
         if((firstNumber2%2)==0){
             if ((lastNumber2%2)==0){
-                //System.out.println("Число " + lastNumber2 + " четное ");
                 lastNumber2--;
             }
-            //System.out.println("Число " + firstNumber2 + " четное ");
             while (firstNumber2<=lastNumber2){
                 System.out.println(firstNumber2);
                 firstNumber2 = firstNumber2 + 2;
@@ -135,10 +133,8 @@ public class Calculation {
         else{
             if((firstNumber2%1)==0){
                 if ((lastNumber2%2)==0){
-                    // System.out.println("Число " + lastNumber2 + " четное ");
                     lastNumber2--;
                 }
-                //System.out.println("Число " + firstNumber2 + " нечетное ");
                 firstNumber2++;
                 while (firstNumber2<=lastNumber2){
                     System.out.println(firstNumber2);
